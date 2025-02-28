@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.lead {
+  position: absolute;
+  width: 984;
+  height: 983;
+  top: 194px;
+  left: 148px;
+}
+
+.lead__title {
+  width: 720;
+  height: 200;
+  top: 194px;
+  left: 280px;
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.lead__subtitle {
+}
+
+.lead__image {
+}
+
+.intro {
+}
+
+.intro__title {
+}
+
+.intro__text {
+}
+
+.author {
+}
+
+.description {
+}
