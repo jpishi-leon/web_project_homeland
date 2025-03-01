@@ -7,12 +7,12 @@
 }
 
 .header__logo {
+  position: absolute;
   width: 254.8373565673828px;
   height: 68.94309997558594px;
   top: 34px;
   left: 513px;
   align-self: center;
-  position: absolute;
 }
 
 .lead {
@@ -22,11 +22,10 @@
   width: 984px;
   height: 983px;
   margin-top: 194px;
-  margin-left: 148px;
+  justify-content: space-between;
 }
 
 .lead__title {
-  position: absolute;
   width: 720px;
   height: 200px;
   top: 194px;
@@ -42,7 +41,6 @@
 }
 
 .lead__subtitle {
-  position: absolute;
   width: 720px;
   height: 72px;
   top: 426px;
@@ -58,8 +56,7 @@
 }
 
 .lead__image {
-  position: absolute;
-  width: 984px;
+  width: 100%;
   height: 615px;
   top: 562px;
   left: 148px;
