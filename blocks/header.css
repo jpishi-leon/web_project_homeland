@@ -7,21 +7,21 @@
 }
 
 .header__logo {
-  position: absolute;
   width: 254.8373565673828px;
   height: 68.94309997558594px;
-  top: 34px;
-  left: 513px;
+  margin-top: 34px;
   align-self: center;
 }
 
 .lead {
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 984px;
   height: 983px;
-  margin-top: 194px;
+  top: 194px;
+  left: 148px;
   justify-content: space-between;
 }
 
@@ -60,4 +60,11 @@
   height: 615px;
   top: 562px;
   left: 148px;
+}
+
+@media screen and (max-width: 1024px);
+ {
+  .header {
+    width: 768px;
+  }
 }
