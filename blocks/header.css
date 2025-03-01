@@ -1,28 +1,35 @@
 .header {
   display: flex;
   flex-direction: column;
-  top: 34px;
-  margin: 0;
-  align-items: center;
+  margin: 0, auto;
+  justify-content: center;
+  position: relative;
 }
 
 .header__logo {
   width: 254.8373565673828px;
   height: 68.94309997558594px;
-  margin-top: 34px;
+  position: absolute;
+  top: 34px;
+  left: auto;
+  right: auto;
   align-self: center;
 }
 
 .lead {
   position: absolute;
+  top: 194px;
+  left: auto;
+  right: auto;
   display: flex;
   flex-direction: column;
+  align-self: center;
   align-items: center;
   width: 984px;
   height: 983px;
-  top: 194px;
-  left: 148px;
   justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .lead__title {
