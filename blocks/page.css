@@ -11,7 +11,7 @@ html {
 .page {
   background-color: #2a2c2f;
   display: flex;
-  margin: 0;
   justify-content: center;
   flex-direction: column;
+  margin: 0;
 }
