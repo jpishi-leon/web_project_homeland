@@ -1,6 +1,7 @@
 .main {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  width: 983px;
 }
 
 .intro {
@@ -8,9 +9,9 @@
   flex-direction: column;
   width: 830px;
   height: 607px;
-  position: absolute;
   justify-content: space-between;
-  top: 1269px;
+  margin-top: 1269px;
+  margin-left: 0;
   left: 148px;
   align-self: center;
 }
@@ -27,6 +28,11 @@
   line-height: 58px;
   letter-spacing: 0%;
   color: #ffffff;
+}
+
+.intro__quote {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .intro__text {
