@@ -11,7 +11,11 @@ html {
 .page {
   background-color: #2a2c2f;
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
   margin: 0;
+  size: 100%;
+  font-family: Inter, arial, helvetica, sans-serif;
+  color: white;
 }

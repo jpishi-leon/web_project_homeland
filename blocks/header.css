@@ -3,8 +3,7 @@
   flex-direction: column;
   top: 34px;
   margin: 0;
-  align-self: center;
-  justify-content: center;
+  align-items: center;
 }
 
 .header__logo {
@@ -19,6 +18,7 @@
 .lead {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 984px;
   height: 983px;
   margin-top: 194px;
