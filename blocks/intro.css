@@ -21,7 +21,7 @@
   text-align: left;
 }
 
-.intro__text-name {
+.intro__author {
   margin: 0 0 32px 0;
   width: 75%;
   font-weight: 400;
@@ -30,7 +30,7 @@
   text-align: right;
 }
 
-.intro__text-description {
+.intro__description {
   margin: 0;
   width: 73%;
   font-weight: 400;
