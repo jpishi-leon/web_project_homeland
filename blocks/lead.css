@@ -30,27 +30,46 @@
 
 @media screen and (max-width: 768px) {
   .lead__title {
-    line-height: 0.98;
+    font-family: Inter;
+    font-weight: 900;
     font-size: 75px;
-    margin: 0 0 25px 0;
-    width: 69%;
+    line-height: 79px;
+    letter-spacing: 0%;
+    text-align: center;
   }
 
   .lead__subtitle {
-    max-width: 94%;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 544px) {
   .lead__title {
-    width: 71%;
+    width: 79.16%;
     font-size: 40px;
     margin: 0 0 16px 0;
     line-height: 0.89;
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: center;
   }
 
   .lead__subtitle {
+    width: 90%;
     margin-bottom: 40px;
+    font-family: Inter;
+    font-weight: 400;
     font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
   }
 }
