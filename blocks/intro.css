@@ -41,39 +41,92 @@
 @media screen and (max-width: 768px) {
   .intro {
     margin: 90px auto 0;
-    width: 86%;
+    width: 93%;
   }
 
   .intro__title {
     font-size: 45px;
     line-height: 1;
+    width: 98.19%;
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 49px;
+    letter-spacing: 0%;
   }
 
   .intro__text {
     width: 100%;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
   }
 
-  .intro__text-name {
+  .intro__author {
     width: 100%;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: right;
   }
 
-  .intro__text-description {
+  .intro__description {
     width: 100%;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26.08px;
+    letter-spacing: 0%;
   }
 }
 
 @media screen and (max-width: 544px) {
   .intro {
     margin: 64px auto 0;
+    width: 90%;
   }
 
   .intro__title {
     font-size: 32px;
     line-height: 1;
     width: 100%;
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 0%;
   }
 
   .intro__text {
     font-size: 24px;
+    width: 100%;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+  }
+
+  .intro__author {
+    width: 100%;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: right;
+  }
+
+  .intro__description {
+    width: 100%;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26.08px;
+    letter-spacing: 0%;
   }
 }
