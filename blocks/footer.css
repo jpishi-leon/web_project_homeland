@@ -1,16 +1,15 @@
 .footer {
-  position: absolute;
-  margin: 0;
-  width: 194px;
-  height: 16px;
-  top: 1968px;
-  left: 543px;
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0%;
-  text-align: right;
-  color: #ffffff;
-  padding-bottom: 24px;
+  margin: 92px 0 24px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    margin: 88px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .footer {
+    margin: 64px 0 0 0;
+  }
 }

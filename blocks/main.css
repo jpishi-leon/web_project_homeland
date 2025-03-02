@@ -1,74 +1,9 @@
 .main {
-  display: flex;
-  justify-content: flex-start;
-  width: 983px;
+  max-width: 77%;
 }
 
-.intro {
-  display: flex;
-  flex-direction: column;
-  width: 830px;
-  height: 607px;
-  justify-content: space-between;
-  margin-top: 1269px;
-  margin-left: 0;
-  left: 148px;
-  align-self: center;
-}
-
-.intro__title {
-  margin: 0;
-  width: 830px;
-  height: 173.9227294921875px;
-  top: 1269px;
-  left: 148px;
-  font-family: Inter;
-  font-weight: 900;
-  font-size: 54px;
-  line-height: 58px;
-  letter-spacing: 0%;
-  color: #ffffff;
-}
-
-.intro__quote {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.intro__text {
-  margin: 0;
-  width: 738px;
-  height: 135.6575927734375px;
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 34px;
-  letter-spacing: 0%;
-  color: #ffffff;
-}
-
-.intro__author {
-  margin: 0;
-  width: 732px;
-  height: 33.914398193359375px;
-  margin-top: 0;
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 34px;
-  letter-spacing: 0%;
-  text-align: right;
-  color: #ffffff;
-}
-
-.intro__description {
-  margin: 0;
-  width: 722px;
-  height: 181.54176330566406px;
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26.08px;
-  letter-spacing: 0%;
-  color: #ffffff;
+@media screen and (max-width: 768px) {
+  .main {
+    min-width: 100%;
+  }
 }

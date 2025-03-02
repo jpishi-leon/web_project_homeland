@@ -1,21 +1,8 @@
-body,
-html {
-  background-color: #2a2c2f;
-  font-family: Inter, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-  margin: 0;
-  position: relative;
-}
-
 .page {
   background-color: #2a2c2f;
+  color: #ffffff;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
-  margin: 0;
-  size: 100%;
-  font-family: Inter, arial, helvetica, sans-serif;
-  color: white;
+  align-items: center;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
