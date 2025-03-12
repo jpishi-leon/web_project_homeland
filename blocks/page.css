@@ -5,4 +5,5 @@
   flex-direction: column;
   align-items: center;
   font-family: "Inter", Arial, Helvetica, sans-serif;
+  min-height: 100vh;
 }
