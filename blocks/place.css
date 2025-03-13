@@ -19,7 +19,6 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  letter-spacing: 0%;
   margin: 0;
 }
 
@@ -46,12 +45,10 @@
   height: 48px;
   border-radius: 4px;
   gap: 10px;
-  font-display: none;
   font-family: Inter;
   font-weight: 600;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -85,7 +82,6 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
-  letter-spacing: 12%;
   text-transform: uppercase;
   margin-bottom: 0;
 }
@@ -96,7 +92,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  letter-spacing: 0%;
 }
 
 .place__paragraphs {
@@ -108,7 +103,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
-  letter-spacing: 0%;
 }
 
 .place__paragraph {
