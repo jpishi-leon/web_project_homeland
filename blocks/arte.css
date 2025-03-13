@@ -1,0 +1,60 @@
+.places {
+  height: 3367;
+  margin-top: 82px;
+  left: 148px;
+}
+
+.place {
+  width: 77.1%;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: auto 460 auto;
+  grid-template-areas:
+    "lugar artista"
+    "foto parrafo"
+    "button .";
+}
+
+.place__title {
+  grid-area: lugar;
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  letter-spacing: 0%;
+  margin: 0;
+}
+
+.place__image {
+  grid-area: foto;
+  margin-top: 48px;
+  width: 460px;
+  height: 460px;
+  top: 2728px;
+  left: 151px;
+}
+
+.place__link {
+}
+
+.place__website {
+  grid-area: button;
+}
+.place__url-heading {
+  grid-area: artista;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 12%;
+  text-transform: uppercase;
+}
+
+.arte__grid-editores {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0%;
+}

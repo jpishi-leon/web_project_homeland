@@ -1,0 +1,15 @@
+.fotos {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 118px;
+  justify-content: space-between;
+  min-width: 92.5%;
+  height: auto;
+  padding: 0;
+}
+
+.fotos__foto {
+  width: 23.98%;
+  height: auto;
+  margin-bottom: 16px;
+}
