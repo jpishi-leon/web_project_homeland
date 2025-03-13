@@ -37,6 +37,10 @@
   box-shadow: 10px 10px 25px 0px #00000080;
 }
 
+.place__image:hover {
+  opacity: 50%;
+}
+
 .place__link {
   grid-area: button;
   display: flex;
@@ -57,6 +61,22 @@
   color: white;
   text-align: center;
   text-decoration: none;
+}
+
+.place__link:link {
+  text-decoration: none;
+}
+
+.place__link:visited {
+  text-decoration: none;
+}
+
+.place__link:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
 }
 
 .place__website {
@@ -101,14 +121,6 @@
   margin: 0;
 }
 
-.a:hover {
-  background-color: linear-gradient(
-    90deg,
-    rgba(2, 120, 254, 0.25) 0%,
-    rgba(0, 58, 123, 0.25) 99.98%
-  );
-}
-
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .place {
     width: 93.75%;
@@ -129,8 +141,8 @@
 
   .place__image {
     grid-area: foto;
-    width: 340px;
-    height: 340px;
+    max-width: 340px;
+    max-height: 340px;
     object-fit: cover;
   }
 
