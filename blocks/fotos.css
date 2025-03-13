@@ -6,10 +6,33 @@
   min-width: 92.5%;
   height: auto;
   padding: 0;
+  align-self: center;
 }
 
 .fotos__foto {
   width: 23.98%;
   height: auto;
   margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .fotos {
+    width: 93.75%;
+    align-self: center;
+  }
+  .fotos__foto {
+    width: 48.88%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .fotos {
+    width: 90%;
+    margin-left: 4%;
+  }
+
+  .fotos__foto {
+    width: 100%;
+  }
 }

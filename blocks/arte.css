@@ -8,14 +8,15 @@
   width: 77.1%;
   display: grid;
   width: 100%;
-  grid-template-columns: 460px 484px;
+  grid-template-columns: 460px auto;
   grid-template-rows: auto 460px auto;
   grid-template-areas:
     "lugar artista"
     "foto parrafo"
-    "button .";
+    "button parrafo";
   grid-column-gap: 40px;
   grid-row-gap: 48px;
+  margin-bottom: 80px;
 }
 
 .place__title {
@@ -32,21 +33,29 @@
   grid-area: foto;
   width: 460px;
   height: 460px;
+  object-fit: cover;
 }
 
 .place__link {
   grid-area: button;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   box-shadow: 5px 5px 10px 0px #00000040;
   width: 289px;
   height: 48px;
   border-radius: 4px;
-  padding-top: 13px;
-  padding-right: 20px;
-  padding-bottom: 13px;
-  padding-left: 20px;
   gap: 10px;
   font-display: none;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: white;
+  text-align: center;
+  text-decoration: none;
 }
 
 .place__website {
@@ -78,7 +87,7 @@
 .place__paragraphs {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 25px;
   grid-area: parrafo;
   font-family: Inter;
   font-weight: 400;
@@ -91,10 +100,72 @@
   margin: 0;
 }
 
-.arte__grid-editores {
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 0%;
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .place {
+    width: 93.75%;
+    grid-template-columns: 340px auto;
+    grid-template-rows: auto 340px auto;
+    grid-template-areas:
+      "lugar artista"
+      "foto parrafo"
+      "button parrafo";
+    grid-column-gap: 40px;
+    grid-row-gap: 48px;
+    margin-bottom: 80px;
+  }
+
+  .place__title {
+    font-size: 42px;
+  }
+
+  .place__image {
+    grid-area: foto;
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+  }
+
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    width: 100%;
+    grid-template-columns: auto;
+    grid-template-rows: 35px 89px 320px;
+    grid-template-areas:
+      "lugar"
+      "artista"
+      "foto"
+      "parrafo"
+      "button";
+  }
+
+  .place__title {
+    font-size: 32px;
+    padding-left: 16px;
+  }
+
+  .place__image {
+    grid-area: foto;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+  }
+
+  .place__paragraph {
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .place__link {
+    margin-left: 16px;
+  }
+
+  .place__website {
+    padding-left: 16px;
+  }
 }
