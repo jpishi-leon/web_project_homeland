@@ -2,3 +2,10 @@
   margin-top: 82px;
   left: 148px;
 }
+
+@media screen and (max-width: 768px) {
+  .places {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}

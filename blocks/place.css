@@ -15,7 +15,6 @@
 
 .place__title {
   grid-area: lugar;
-  font-family: Inter;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
@@ -45,7 +44,6 @@
   height: 48px;
   border-radius: 4px;
   gap: 10px;
-  font-family: Inter;
   font-weight: 600;
   font-size: 18px;
   line-height: 100%;
@@ -78,7 +76,6 @@
   justify-content: flex-end;
 }
 .place__url-heading {
-  font-family: Inter;
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
@@ -88,7 +85,6 @@
 
 .place__artist {
   margin-top: 0;
-  font-family: Inter;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
@@ -99,7 +95,6 @@
   flex-direction: column;
   gap: 25px;
   grid-area: parrafo;
-  font-family: Inter;
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
@@ -139,7 +134,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .place {
     width: 100%;
     grid-template-columns: auto;
