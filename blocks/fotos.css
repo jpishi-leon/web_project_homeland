@@ -19,6 +19,7 @@
   .fotos {
     width: 93.75%;
     align-self: center;
+    margin: auto;
   }
   .fotos__foto {
     width: 48.88%;
