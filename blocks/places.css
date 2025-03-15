@@ -3,9 +3,16 @@
   left: 148px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .places {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3.12%;
+    margin-right: 3.12%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    margin-left: none;
+    margin-right: none;
   }
 }
